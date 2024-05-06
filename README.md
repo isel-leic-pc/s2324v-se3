@@ -34,6 +34,6 @@ The [Server](src/main/kotlin/pt/isel/pc/Server.kt) is responsible for:
   - produces side effects based on those control message.
 - With few exceptions (e.g. the server socket), all server state is exclusively managed by the _main_ thread.
 - All interaction with the server is done by sending control messages to the server's _control queue_.
-- 
+
 The [RemoteClient](src/main/kotlin/pt/isel/pc/RemoteClient.kt) class is responsible to interact with a 
 specific connected client, and follows a similar design.
